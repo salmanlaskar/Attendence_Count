@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.laskar.hello.attendence_count">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.laskar.hello.attendence_count.Student_class"></activity>
+        <activity android:name="com.laskar.hello.attendence_count.Teacher_class" />
+        <activity android:name="com.laskar.hello.attendence_count.Enroll" />
+        <activity android:name="com.laskar.hello.attendence_count.Teacher" />
+        <activity android:name="com.laskar.hello.attendence_count.Student" />
+        <activity android:name="com.laskar.hello.attendence_count.Login" />
+        <activity android:name="com.laskar.hello.attendence_count.Register" />
+        <activity android:name="com.laskar.hello.attendence_count.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
